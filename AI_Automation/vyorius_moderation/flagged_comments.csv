@@ -1,0 +1,21 @@
+comment_id,username,comment_text,is_offensive,offense_type,explanation
+1,user1,Absolutely inspiring.,False,none,The comment expresses positive sentiment and does not contain any offensive content.
+2,user2,You're an idiot.,True,toxicity,"Calling someone an 'idiot' is a direct and demeaning insult, contributing to a toxic online environment. It's a personal attack intended to belittle the recipient."
+3,user3,Excellent!,False,none,The comment 'Excellent!' is a positive and generally harmless expression of approval or satisfaction.
+4,user4,This is stupid.,True,toxicity,"The comment expresses a negative and dismissive opinion in a blunt and disrespectful manner. While not hate speech or harassment, it contributes to a toxic environment due to its negativity and lack of constructive criticism."
+5,user5,You're trash!,True,toxicity,"The statement is a direct and demeaning insult, intended to be hurtful and negative. It qualifies as toxic behavior."
+6,user6,This is brilliant!,False,none,The comment expresses strong positive sentiment and does not contain any offensive language or hateful content.
+7,user7,Excellent!,False,none,The comment 'Excellent!' expresses positive sentiment and contains no offensive content.
+8,user8,Wonderful contribution.,False,none,"The comment expresses positive sentiment and does not contain any offensive language, hate speech, harassment, or toxicity."
+9,user9,Shut your mouth!,True,toxicity,"The phrase is a rude and aggressive command intended to silence someone, making it toxic."
+10,user10,Shut your mouth!,True,toxicity,"This phrase is a direct and aggressive command intended to silence someone, which is considered toxic behavior."
+11,user11,Shut your mouth!,True,toxicity,"The phrase 'Shut your mouth!' is a rude and aggressive command intended to silence someone, making it toxic."
+12,user12,Shut your mouth!,True,toxicity,"This phrase is a direct and aggressive command intended to silence someone, which constitutes toxic behavior. It is disrespectful and potentially hostile."
+13,user13,This is stupid.,True,toxicity,"The comment is a direct and dismissive insult towards something unspecified. While not hate speech or harassment, it creates a negative and unproductive atmosphere due to its negativity and lack of constructive criticism."
+14,user14,You're trash!,True,toxicity,"The statement is a direct, insulting, and demeaning attack on the recipient, contributing to a hostile environment. It is a toxic statement meant to cause harm or distress."
+15,user15,You're a loser!,True,harassment,"The statement is a direct personal attack intended to demean and insult the recipient, which constitutes harassment."
+16,user16,This is stupid.,True,toxicity,"The comment expresses a negative and dismissive opinion in an unnecessarily blunt and unproductive manner, contributing to a toxic environment. While not explicitly containing hate speech, harassment, or profanity, its negativity is detrimental."
+17,user17,Wonderful contribution.,False,none,The comment 'Wonderful contribution' is a positive and encouraging statement. It does not contain any offensive language or harmful intent.
+18,user18,Go to hell!,True,toxicity,The phrase 'Go to hell!' is a hostile and aggressive expression wishing harm upon the recipient. It is considered toxic due to its intent to cause distress and offense.
+19,user19,"Great job, keep it up!",False,none,This is a positive and encouraging comment expressing approval. It contains no offensive language or implications.
+20,user20,You're a fool.,False,none,Invalid response from Gemini
