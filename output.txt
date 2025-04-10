@@ -1,0 +1,99 @@
+python main.py --input sample_100_comments.csv --output flagged_comments.csv --plot --limit 10
+⏳ Processing comment 1/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": false,
+  "offense_type": "none",
+  "explanation": "The comment expresses positive sentiment and does not contain any offensive language or harmful content."
+}
+```
+⏳ Processing comment 2/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": true,
+  "offense_type": "toxicity",
+  "explanation": "The statement is a direct insult and personal attack, using derogatory language to belittle the recipient. This constitutes toxic behavior."
+}
+```
+⏳ Processing comment 3/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": false,
+  "offense_type": "none",
+  "explanation": "The word 'Excellent!' is a positive expression and does not contain any offensive content."
+}
+```
+⏳ Processing comment 4/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": true,
+  "offense_type": "toxicity",
+  "explanation": "The comment 'This is stupid' is considered toxic because it is a dismissive and negative statement that can shut down conversation and be hurtful, even if not explicitly abusive or targeting a specific group."
+}
+```
+⏳ Processing comment 5/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": true,
+  "offense_type": "toxicity",
+  "explanation": "The statement is a direct and insulting personal attack. It is a derogatory term intended to demean the recipient."
+}
+```
+⏳ Processing comment 6/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": false,
+  "offense_type": "none",
+  "explanation": "The comment expresses positive sentiment and does not contain any offensive language or harmful content."
+}
+```
+⏳ Processing comment 7/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": false,
+  "offense_type": "none",
+  "explanation": "The comment \"Excellent!\" is a positive expression and does not contain any offensive content."
+}
+```
+⏳ Processing comment 8/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": false,
+  "offense_type": "none",
+  "explanation": "The comment 'Wonderful contribution' is a positive and appreciative statement. It does not contain any offensive language or promote hate speech, harassment, toxicity, or profanity."
+}
+```
+⏳ Processing comment 9/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": true,
+  "offense_type": "toxicity",
+  "explanation": "The phrase \"Shut your mouth!\" is a rude and aggressive command intended to silence someone. It is considered disrespectful and hostile, contributing to a toxic communication environment."
+}
+```
+⏳ Processing comment 10/10...
+🔹 Gemini Output: ```json
+{
+  "is_offensive": true,
+  "offense_type": "toxicity",
+  "explanation": "The phrase 'Shut your mouth!' is a rude and dismissive command intended to silence someone, making it toxic and potentially hostile."
+}
+```
+
+🔍 Total Comments: 10
+🚨 Offensive Comments: 5
+
+📊 Offense Type Breakdown:
+• toxicity: 5
+
+🔥 Top 5 Most Offensive Comments:
+1. user4 – "This is stupid."
+   ↳ toxicity: The comment 'This is stupid' is considered toxic because it is a dismissive and negative statement that can shut down conversation and be hurtful, even if not explicitly abusive or targeting a specific group.
+2. user9 – "Shut your mouth!"
+   ↳ toxicity: The phrase "Shut your mouth!" is a rude and aggressive command intended to silence someone. It is considered disrespectful and hostile, contributing to a toxic communication environment.
+3. user2 – "You're an idiot."
+   ↳ toxicity: The statement is a direct insult and personal attack, using derogatory language to belittle the recipient. This constitutes toxic behavior.
+4. user10 – "Shut your mouth!"
+   ↳ toxicity: The phrase 'Shut your mouth!' is a rude and dismissive command intended to silence someone, making it toxic and potentially hostile. 
+5. user5 – "You're trash!"
+   ↳ toxicity: The statement is a direct and insulting personal attack. It is a derogatory term intended to demean the recipient.
