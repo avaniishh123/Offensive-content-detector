@@ -77,11 +77,17 @@ into one compact solution.
 
 ## Bar Chart Screenshot
 
+![Figure_1](https://github.com/user-attachments/assets/d484e6fc-e3e2-4887-9b94-e4c10f80c8f6)
+
+## Demo Video 
+
+Link:- https://drive.google.com/file/d/16G-Ntg28bsKZtqqdfOqyAF8zs_TXFYxX/view?usp=sharing
+
 
 
 ## ✅ Bonus Highlights
 
 - Built-in CLI for flexibility
 - Error handling for invalid responses
-- Can be easily extended with offline profanity libraries (`better_profanity`, `profanity-check`)
+- Can be easily extended with offline profanity libraries other than Gemini API Key (`better_profanity`, `profanity-check`)
 - Logs every Gemini output to help debug and understand decisions
